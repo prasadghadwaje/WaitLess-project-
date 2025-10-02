@@ -84,20 +84,17 @@ class _SignupPageState extends State<SignupPage> {
     return Scaffold(
       body: Stack(
         children: [
-          // Full-page background image
           Positioned.fill(
             child: Image.asset(
-              "assets/signupPhoto.jpeg", // use your background image here
+              "assets/signupPhoto.jpeg",
               fit: BoxFit.cover,
             ),
           ),
-          // Dark overlay for readability
           Positioned.fill(
             child: Container(
               color: Colors.black.withOpacity(0.3),
             ),
           ),
-          // Signup content
           Center(
             child: SingleChildScrollView(
               padding: const EdgeInsets.symmetric(horizontal: 25, vertical: 40),

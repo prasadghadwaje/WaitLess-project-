@@ -130,20 +130,17 @@ class _RoleSelectionPageState extends State<RoleSelectionPage>
     return Scaffold(
       body: Stack(
         children: [
-          // Full-page background image
           Positioned.fill(
             child: Image.asset(
-              "assets/loginPhoto.jpeg", // your background image path
+              "assets/loginPhoto.jpeg",
               fit: BoxFit.cover,
             ),
           ),
-          // Optional: dark overlay for readability
           Positioned.fill(
             child: Container(
               color: Colors.black.withOpacity(0.2),
             ),
           ),
-          // Existing content
           SafeArea(
             child: Center(
               child: SingleChildScrollView(
@@ -156,7 +153,7 @@ class _RoleSelectionPageState extends State<RoleSelectionPage>
                       style: TextStyle(
                         fontSize: 28,
                         fontWeight: FontWeight.bold,
-                        color: Colors.white, // changed to white for visibility
+                        color: Colors.white,
                       ),
                     ),
                     const SizedBox(height: 30),
