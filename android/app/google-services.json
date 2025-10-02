@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "395361981870",
+    "project_id": "waitless1-3-1fc52",
+    "storage_bucket": "waitless1-3-1fc52.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395361981870:android:97c5fd6099fad0b765243f",
+        "android_client_info": {
+          "package_name": "com.example.waitless1_3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzR1s5p-XpONgisCS5J83DouLiMyffuKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
